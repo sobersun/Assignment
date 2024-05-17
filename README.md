@@ -1,6 +1,7 @@
 ## Setup Script
 
 ### `setup.sh`
+- **Initial Step:** Please create an .env file and give database credentials with database name.
 - **Description:** Bash script for setting up the Laravel project.
 - **Usage:** Run `bash ./setup.sh` in the terminal.
 - **Tasks:** Sets permissions, installs Composer dependencies, generates application key, runs migrations, seeds the database, clears cache, and optimizes autoloader.
